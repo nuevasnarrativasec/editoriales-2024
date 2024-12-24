@@ -562,6 +562,9 @@ html {
     #frase-6{
         display: none;
     }
+    .popup{
+        max-width: 95%;
+    }
 
 }
 
