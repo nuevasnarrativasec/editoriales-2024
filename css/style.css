@@ -64,7 +64,7 @@ html {
                     width: 36px;
                 }
 .box-main-portada{
-    background: url('../img/bg-portada.jpg') no-repeat center center;
+    /*background: url('../img/bg-portada.jpg') no-repeat center center;*/
     background-size: cover;
     height: 100vh;
     position: relative;
@@ -101,9 +101,71 @@ html {
             }
         .box-titular img.flecha-bajar{
             cursor: pointer;
-            margin-top: 50px;
+            margin-top: 1%;
             max-width: 50px;
         }
+    .box-frase{
+        max-width: 300px;
+        position: absolute;
+    }
+        .box-frase p{
+            font: 1.6rem/1.1 "Caveat", cursive;
+            text-align: center;
+        }
+        #frase-1{
+            left: 5%;
+            top: 5%;         
+            opacity: 0;
+            animation: fadeIn 10s ease-in-out infinite; 
+        }
+        #frase-2{
+            left: 5%;
+            top: 37%;         
+            opacity: 0;
+            animation: fadeIn 10s 4s ease-in-out infinite; 
+        }  
+            #frase-2 p{
+                font-size: 1.3rem;
+            }
+        #frase-3{
+            left: 5%;
+            max-width: 350px;
+            top: 65%;         
+            opacity: 0;
+            animation: fadeIn 10s 2s ease-in-out infinite; 
+        }  
+        #frase-4{
+            right: 5%;
+            max-width: 350px;
+            top: 5%;         
+            opacity: 0;
+            animation: fadeIn 10s 2s ease-in-out infinite; 
+        }  
+        #frase-5{
+            right: 5%;
+            max-width: 350px;
+            top: 37%;         
+            opacity: 0;
+            animation: fadeIn 10s 4s ease-in-out infinite; 
+        }  
+        #frase-6{
+            right: 5%;
+            max-width: 350px;
+            top: 65%;         
+            opacity: 0;
+            animation: fadeIn 10s 2s ease-in-out infinite; 
+        } 
+            @keyframes fadeIn {
+                0% {
+                    opacity: 0;
+                }
+                50% {
+                    opacity: 1;
+                }
+                100% {
+                    opacity: 0;
+                }
+            }
 .box-main-bajada{
     background-color: #000;
     height: 100vh;
@@ -490,6 +552,15 @@ html {
         }
     .box-bajada{
         padding: 0 30px;
+    }
+
+    #frase-1,
+    #frase-2,
+    #frase-3,
+    #frase-4,
+    #frase-5,
+    #frase-6{
+        display: none;
     }
 
 }
