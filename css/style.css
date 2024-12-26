@@ -218,43 +218,43 @@ html {
 
         }
             #bg-ilustracion-1{
-                background: url('../img/bg-ilustracion-1-2.jpg') no-repeat center top;
+                background: url('https://nuevasnarrativasec.github.io/editoriales-2024/img/bg-ilustracion-1-2.jpg') no-repeat center top;
                 background-size: cover;
             }
             #bg-ilustracion-2{
-                background: url('../img/bg-ilustracion-2.jpg') no-repeat center top;
+                background: url('https://nuevasnarrativasec.github.io/editoriales-2024/img/bg-ilustracion-2.jpg') no-repeat center top;
                 background-size: cover;
             }
             #bg-ilustracion-4{
-                background: url('../img/bg-ilustracion-4.jpg') no-repeat center top;
+                background: url('https://nuevasnarrativasec.github.io/editoriales-2024/img/bg-ilustracion-4.jpg') no-repeat center top;
                 background-size: cover;
             }
             #bg-ilustracion-5{
-                background: url('../img/bg-ilustracion-5.jpg') no-repeat center top;
+                background: url('https://nuevasnarrativasec.github.io/editoriales-2024/img/bg-ilustracion-5.jpg') no-repeat center top;
                 background-size: cover;
             }
             #bg-ilustracion-6{
-                background: url('../img/bg-ilustracion-6.jpg') no-repeat center top;
+                background: url('https://nuevasnarrativasec.github.io/editoriales-2024/img/bg-ilustracion-6.jpg') no-repeat center top;
                 background-size: cover;
             }
             #bg-ilustracion-7{
-                background: url('../img/bg-ilustracion-7.jpg') no-repeat center top;
+                background: url('https://nuevasnarrativasec.github.io/editoriales-2024/img/bg-ilustracion-7.jpg') no-repeat center top;
                 background-size: cover;
             }
             #bg-ilustracion-8{
-                background: url('../img/bg-ilustracion-8.jpg') no-repeat center top;
+                background: url('https://nuevasnarrativasec.github.io/editoriales-2024/img/bg-ilustracion-8.jpg') no-repeat center top;
                 background-size: cover;
             }
             #bg-ilustracion-9{
-                background: url('../img/bg-ilustracion-9.jpg') no-repeat center top;
+                background: url('https://nuevasnarrativasec.github.io/editoriales-2024/img/bg-ilustracion-9.jpg') no-repeat center top;
                 background-size: cover;
             }
             #bg-ilustracion-10{
-                background: url('../img/bg-ilustracion-10.jpg') no-repeat center top;
+                background: url('https://nuevasnarrativasec.github.io/editoriales-2024/img/bg-ilustracion-10.jpg') no-repeat center top;
                 background-size: cover;
             }
             #bg-ilustracion-11{
-                background: url('../img/bg-ilustracion-11.jpg') no-repeat center top;
+                background: url('https://nuevasnarrativasec.github.io/editoriales-2024/img/bg-ilustracion-11.jpg') no-repeat center top;
                 background-size: cover;
             }
         .box-texto{
@@ -427,7 +427,17 @@ html {
     display: none;
 }
 
-@media only screen and (max-width: 640px){
+
+@media only screen and (max-width: 1024px){
+
+    #frase-2,
+    #frase-5{
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 768px){
 
     .ctn-button-menu{  
        
