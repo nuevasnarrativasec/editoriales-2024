@@ -169,12 +169,14 @@ html {
 .box-main-bajada{
     background-color: #000;
     height: 100vh;
+    position: relative;
 }
     .box-bajada{
-        position: relative;
+        left: 50%;      
+        position: absolute;
         text-align: center;
-        transform: translate(0%, -50%);
-        top: 50%;       
+        transform: translate(-50%, -50%);
+        top: 50%;        
     }
         .box-bajada h3{
             color: #FCC716;
@@ -456,7 +458,8 @@ html {
                     margin: 0 auto;
                 }
 
-    #video-movil{
+    #video-movil,
+    .box-portada-movil{
         display: none;
     }
 
@@ -593,6 +596,7 @@ html {
         }
     .box-bajada{
         padding: 0 30px;
+        width: 90%;
     }
 
     #frase-1,
@@ -638,6 +642,15 @@ html {
         left: 0;
     }
     .box-main-portada{
+        width: 100%;
+    }
+
+    .box-portada-movil{
+        background: url('../img/portada-movil-2.gif') no-repeat center top;
+        background-size: cover;
+        display: block;
+        height: 100%;
+        position: absolute;
         width: 100%;
     }
 
