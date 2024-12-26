@@ -172,7 +172,8 @@ html {
     position: relative;
 }
     .box-bajada{
-        left: 50%;      
+        left: 50%;   
+        max-width: 500px;   
         position: absolute;
         text-align: center;
         transform: translate(-50%, -50%);
@@ -180,9 +181,11 @@ html {
     }
         .box-bajada h3{
             color: #FCC716;
-            font: 1.1rem/1.2 "Merriweather", serif;
+            font: 1.1rem / 1.4 "Merriweather", serif;
             font-weight: 900;
             text-transform: uppercase;
+            max-width: 350px;
+            margin: 0 auto 10px;
         }
         .box-bajada p{
             color: #fff;
@@ -594,10 +597,14 @@ html {
         .box-titular h1 span{
             font-size: 3.2rem;
         }
-    .box-bajada{
-        box-sizing: border-box;
-        padding: 0 30px;
-        width: 90%;
+    .box-bajada{        
+        max-width: 95%;
+        position: relative;
+        transform: none;
+        top: inherit;
+        left: inherit;
+        margin: 0 auto;
+        padding: 50px 20px;
     }
 
     #frase-1,
@@ -653,6 +660,9 @@ html {
         height: 100%;
         position: absolute;
         width: 100%;
+    }
+    .box-main-bajada{
+        height: auto;
     }
 
 }
