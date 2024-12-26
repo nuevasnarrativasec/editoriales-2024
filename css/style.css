@@ -628,7 +628,7 @@ html {
         display: none;
     }
     #video-movil{
-        display: block;
+        display: block !important;
         object-fit: cover;
         position: absolute;
         top: 0;
