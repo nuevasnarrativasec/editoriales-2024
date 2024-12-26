@@ -627,7 +627,7 @@ html {
     .box-frase{
         display: none;
     }
-    .box-main-portada #video-movil{
+    #video-movil{
         display: block !important;
         object-fit: cover;
         position: absolute;
