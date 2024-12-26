@@ -471,8 +471,7 @@ html {
 
 @media only screen and (max-width: 768px){
 
-    .ctn-button-menu{  
-       
+    .ctn-button-menu{         
         min-height: 55px;
         position: fixed;   
         text-align: right; 
