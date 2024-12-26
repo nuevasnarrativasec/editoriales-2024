@@ -630,6 +630,9 @@ html {
     #video-movil{
         display: block;
         object-fit: cover;
+        position: absolute;
+        top: 0;
+        height: 100vh;
     }
 
     #social{
