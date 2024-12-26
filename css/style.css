@@ -356,7 +356,7 @@ html {
         top: 50%;
     }
         .ctn-popup{  
-            height: 500px;
+            height: 98%;
             padding: 40px;
             overflow-y: scroll;
             position: relative;
