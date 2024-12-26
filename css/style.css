@@ -37,7 +37,7 @@ html {
                 width: 36px;
             }
                 #fb {
-                    background: url(https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/personas-desaparecidas/img/fb-icon.png?v2) no-repeat 0 0 !important;
+                    background: url(https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/abuso-infantil/img/fb-icon-negro.png?v2) no-repeat 0 0 !important;
                     background-size: 100% !important;
                     border: none;
                     display: inline-block;
@@ -46,7 +46,7 @@ html {
                     width: 36px;
                 }
                 #wst {
-                    background: url(https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/personas-desaparecidas/img/wsp-icon.png?v2) no-repeat 0 0 !important;
+                    background: url(https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/abuso-infantil/img/wsp-icon-negro.png?v2) no-repeat 0 0 !important;
                     background-size: 100% !important;
                     border: none;
                     display: none;
@@ -55,7 +55,7 @@ html {
                     width: 36px;
                 }
                 #tw {
-                    background: url(https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/personas-desaparecidas/img/tw-icon.png?v2) no-repeat 0 0 !important;
+                    background: url(https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/abuso-infantil/img/tw-icon-negro.png?v2) no-repeat 0 0 !important;
                     background-size: 100% !important;
                     border: none;
                     display: inline-block;
@@ -456,6 +456,10 @@ html {
                     margin: 0 auto;
                 }
 
+    #video-movil{
+        display: none;
+    }
+
 @media only screen and (max-width: 1024px){
 
     #frase-2,
@@ -608,6 +612,28 @@ html {
         left: 50%;
         margin-left: -25px;
         right: inherit;
+    }
+
+    #video-movil{
+        display: none;
+    }
+
+}
+
+
+@media only screen and (max-width: 640px){
+
+    .box-titular,
+    .box-frase{
+        display: none;
+    }
+    #video-movil{
+        display: block;
+        object-fit: cover;
+    }
+
+    #social{
+        left: 0;
     }
 
 }
