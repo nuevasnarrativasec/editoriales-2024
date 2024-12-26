@@ -290,16 +290,17 @@ html {
                     max-width: 400px;                
                 }
                 .btn-mas{
+                    background-color: #AB8F2F;    
                     border: 1px solid #c2c2c2;
                     border-radius: 32px;
-                    box-sizing: border-box;
+                    box-sizing: border-box;                    
                     cursor: pointer;
                     margin: 0 auto;
                     max-width: 215px;
                     padding: 10px;
                 }
                     .btn-mas p{
-                        color: #AB8F2F;
+                        color: #fff;
                         font: 12px/1.2 "Noto Sans KR", sans-serif;
                         font-weight: 900;
                         margin: 0 auto;
@@ -307,10 +308,10 @@ html {
                         text-transform: uppercase;
                     }
                     .btn-mas:hover{
-                        background-color: #AB8F2F;                        
+                        background-color: #fff;                   
                     }     
                     .btn-mas:hover p{
-                        color: #fff;
+                        color: #AB8F2F;
                     }               
 .box-menu{
     display: inline-block;
@@ -427,6 +428,33 @@ html {
     display: none;
 }
 
+.footer{
+    background-color: #fff;
+    padding: 80px 0 40px;
+    position: relative;
+}
+    .footer img{
+        display: block;
+        margin: 0 auto 60px;
+        max-width: 150px;
+    }
+    .footer ul{
+        list-style: none;
+        margin: 0 auto;
+        padding: 0;
+        text-align: center;
+    }
+        .footer ul li{
+
+        }
+            .footer ul li p{
+                font: 1rem / 1.6 "Roboto", sans-serif;
+            }
+                .footer ul li p span{
+                    display: block;
+                    font-weight: 700;
+                    margin: 0 auto;
+                }
 
 @media only screen and (max-width: 1024px){
 
@@ -574,6 +602,12 @@ html {
     }
     .popup{
         max-width: 95%;
+    }
+
+    .btn-cerrar{
+        left: 50%;
+        margin-left: -25px;
+        right: inherit;
     }
 
 }
