@@ -173,11 +173,12 @@ html {
 }
     .box-bajada{
         left: 50%;   
-        max-width: 500px;   
+        /*max-width: 500px; */
         position: absolute;
         text-align: center;
         transform: translate(-50%, -50%);
-        top: 50%;        
+        top: 50%;  
+        width: 61%;      
     }
         .box-bajada h3{
             color: #FCC716;
@@ -192,7 +193,7 @@ html {
             font: 1.1rem/1.4 "Roboto", sans-serif;
             font-weight: 300;
             margin: 0 auto;
-            max-width: 550px;
+            /*max-width: 550px;*/
         }
 .box-main-editoriales{
     display: inline-block;
