@@ -364,7 +364,7 @@ html {
         margin: 0 auto;
         max-width: 700px;       
         position: relative;
-        transform: translate(0%,-50%);
+        transform: translate(0%,-45%);
         top: 50%;
     }
         .ctn-popup{  
