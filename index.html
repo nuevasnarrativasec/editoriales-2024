@@ -147,7 +147,7 @@
         <div class="box-bajada">
             <h3>Lo que El Comercio opinó de los temas más importantes el 2024</h3>
             <p>
-                El año 2024 ha estado marcado por una intensa situación política en el Perú y un agravamiento de la crisis de seguridad ciudadana. Este 2024, El Comercio ha abordado temas cruciales a través de sus editoriales. La inestabilidad política, reflejada en la irregular labor del Congreso, ha generado un clima de desconfianza entre la ciudadanía. A pesar de la recuperación económica proyectada con un crecimiento del 3.1%, los problemas institucionales persisten, afectando la inversión y el desarrollo social. Los editoriales han enfatizado la necesidad de un Congreso más responsable y comprometido con las demandas ciudadanas, así como la urgencia de reformas que impulsen una verdadera recuperación económica y la presencia de un Gobierno que tome acciones efectivas para el país. Revisa los 10 editoriales más importantes aquí.
+                El año 2024 ha estado marcado por una intensa situación política en el Perú y un agravamiento de la crisis de seguridad ciudadana. Este 2024, El Comercio ha abordado temas cruciales a través de sus editoriales. La inestabilidad política, reflejada en la irregular labor del Congreso, ha generado un clima de desconfianza entre la ciudadanía. A pesar de la recuperación económica proyectada con un crecimiento del 3.1%, los problemas institucionales persisten, afectando la inversión y el desarrollo social. Los editoriales han enfatizado la necesidad de un Congreso más responsable y comprometido con las demandas ciudadanas, así como la urgencia de reformas que impulsen una verdadera recuperación económica y la presencia de un Gobierno que tome acciones efectivas para el país. <span>Revisa los 10 editoriales más importantes aquí.</span>
             </p>
         </div>
     </div>
@@ -808,9 +808,15 @@
         document.addEventListener('DOMContentLoaded', function () {
             const flechaBajar = document.querySelector('.flecha-bajar');
             const boxBajada = document.querySelector('.box-main-bajada');
+            const ancla =  document.querySelector('.box-bajada p span');  
+            const mainEditoriales = document.querySelector('.box-main-editoriales');          
 
             flechaBajar.addEventListener('click', function () {
                 boxBajada.scrollIntoView({ behavior: 'smooth' });
+            });
+
+            ancla.addEventListener('click', function () {
+                mainEditoriales.scrollIntoView({ behavior: 'smooth' });
             });
         });
     </script>

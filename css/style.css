@@ -195,6 +195,10 @@ html {
             margin: 0 auto;
             /*max-width: 550px;*/
         }
+            .box-bajada p span{
+                color: #FCC716;
+                cursor: pointer;
+            }
 .box-main-editoriales{
     display: inline-block;
     vertical-align: top;
