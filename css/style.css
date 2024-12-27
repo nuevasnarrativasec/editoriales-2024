@@ -198,6 +198,7 @@ html {
             .box-bajada p span{
                 color: #FCC716;
                 cursor: pointer;
+                font-weight: 700;
             }
 .box-main-editoriales{
     display: inline-block;
